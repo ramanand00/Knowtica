@@ -7,6 +7,7 @@ import ContactForm from "../components/ContactForm";
 import Landing from "../components/Landing";
 import Funds from "../components/Funds";
 import BackToTop from "../components/BackToTop";
+import AdsterraAd from "../components/AdsterraAd";
 
 export default function Home() {
     return (
