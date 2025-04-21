@@ -13,6 +13,7 @@ export default function Home() {
     return (
         <>
             <Navbar />
+            <AdsterraAd />
             <div className="video-container">
                 <video src={space} type="video/mp4" autoPlay loop muted>
                     Sorry, your browser doesn't support videos.
