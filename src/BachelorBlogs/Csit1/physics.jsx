@@ -5,14 +5,13 @@ import Footer from '../../components/Footer';
 import PageHeader from '../../components/PageHeader';
 import BackToTop from '../../components/BackToTop';
 import '../../css/courses.css';
-
 const Csit = () => {
     const [searchQuery, setSearchQuery] = useState('');
 
     const courseCategories = [
         {
-            id: 'physics',
-            title: 'BSc.CSIT First Semester - Physics',
+            id: 'frontend',
+            title: 'Hello ITians... Welcome to BSc.CSIT',
             courses: [
                 {
                     id: 'Unit1',
