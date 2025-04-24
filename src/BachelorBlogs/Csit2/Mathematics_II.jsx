@@ -6,110 +6,93 @@ import PageHeader from '../../components/PageHeader';
 import BackToTop from '../../components/BackToTop';
 import '../../css/courses.css';
 
-const Csit = () => {
+const MathematicsII = () => {
     const [searchQuery, setSearchQuery] = useState('');
 
     const courseCategories = [
         {
             id: 'frontend',
-            title: 'Hello ITians... Welcome to BSc.CSIT',
+            title: 'Mathematics II (MTH163)',
             courses: [
                 {
-                    id: 'Chapter1',
-                    title: 'Introduction to Computer',
-                    description: 'Description',
+                    id: 'Unit1',
+                    title: 'Linear Equations in Linear Algebra',
+                    description: 'System of linear equations, Row reduction and Echelon forms, Vector equations, The matrix equations Ax = b, Applications of linear system, Linear independence.',
                     image: '#',
-                    duration: '90 days per semister',
-                    level: 'Basic/Startup'
+                    duration: '5 Hrs.',
+                    level: 'Beginner'
                 },
                 {
-                    id: 'Chapter2',
-                    title: 'The Computer System Hardware',
-                    description: 'Description ',
+                    id: 'Unit2',
+                    title: 'Transformation',
+                    description: 'Introduction to linear transformations, the matrix of a linear Transformation, Linear models in business, science, and engineering.',
                     image: '#',
-                    duration: '90 days per semister',
+                    duration: '4 Hrs.',
                     level: 'Intermediate'
                 },
                 {
-                    id: 'Chapter3',
-                    title: 'Computer Memory',
-                    description: 'Description',
+                    id: 'Unit3',
+                    title: 'Matrix Algebra',
+                    description: 'Matrix operations, The inverse of a matrix, Characterizations of invertible matrices, Partitioned matrices, Matrix factorization, The Leontief input-output model, Subspace of Rn, Dimension and rank.',
                     image: '#',
-                    duration: '90 days per semister',
+                    duration: '5 Hrs.',
                     level: 'Intermediate'
                 },
                 {
-                    id: 'Chapter4',
-                    title: 'Input and Output Devices',
-                    description: 'Description',
+                    id: 'Unit4',
+                    title: 'Determinants',
+                    description: 'Introduction, Properties, Cramer’s rule, Volume and linear transformations.',
                     image: '#',
-                    duration: '90 days per semister',
+                    duration: '4 Hrs.',
                     level: 'Intermediate'
                 },
                 {
-                    id: 'Chapter5',
-                    title: 'Data Representation',
-                    description: 'Description',
+                    id: 'Unit5',
+                    title: 'Vector Spaces',
+                    description: 'Vector spaces and subspaces, Null spaces, Column spaces, and Linear transformations, Linearly independent sets: Bases, Coordinate systems.',
                     image: '#',
-                    duration: '90 days per semister',
-                    level: 'Intermediate'
+                    duration: '5 Hrs.',
+                    level: 'Advanced'
                 },
-                  {
-                     id: 'Chapter6',
-                     title: 'Computer Software',
-                     description: 'Description',
-                     image: '#',
-                     duration: '90 days per semister',
-                     level: 'Intermediate'
-                  },
-                  {
-                     id: 'Chapter7',
-                     title: 'Ddata Communication and Computer Network',
-                     description: 'Description',
-                     image: '#',
-                     duration: '90 days per semister',
-                     level: 'Intermediate'
-                  },
-                     
-                     {
-                        id: 'Chapter8',
-                        title: 'The Internet and Internet Services',
-                        description: 'Description',
-                        image: '#',
-                        duration: '90 days per semister',
-                        level: 'Intermediate'
-                     },
-                     {
-                        id: 'Chapter9',
-                        title: 'Fundamentals of Database',
-                        description: 'Description',
-                        image: '#',
-                        duration: '90 days per semister',
-                        level: 'Intermediate'
-                     },
-                     {
-                        id: 'Chapter10',
-                        title: 'Multimedia',
-                        description: 'Description',
-                        image: '#',
-                        duration: '90 days per semister',
-                        level: 'Intermediate'
-                     },
-                     {
-                        id: 'Chapter11',
-                        title: 'Computer Security',
-                        description: 'Description',
-                        image: '#',
-                        duration: '90 days per semister',
-                        level: 'Intermediate'
-                     },
                 {
-                    id: 'Model',
-                    title: 'Model Question Paper',
-                    description: 'Description',
+                    id: 'Unit6',
+                    title: 'Vector Space Continued',
+                    description: 'Dimension of vector space and Rank, Change of basis, Applications to difference equations, Applications to Markov Chains.',
                     image: '#',
-                    duration: '90 days per semister',
-                    level: 'Intermediate'
+                    duration: '4 Hrs.',
+                    level: 'Advanced'
+                },
+                {
+                    id: 'Unit7',
+                    title: 'Eigenvalues and Eigen Vectors',
+                    description: 'Eigenvectors and Eigenvalues, The characteristic equations, Diagonalization, Eigenvectors and linear transformations, Complex eigenvalues, Discrete dynamical systems, Applications to differential equations.',
+                    image: '#',
+                    duration: '5 Hrs.',
+                    level: 'Advanced'
+                },
+                {
+                    id: 'Unit8',
+                    title: 'Orthogonality and Least Squares',
+                    description: 'Inner product, Length, and orthogonality, Orthogonal sets, Orthogonal projections, The Gram-Schmidt process, Least squares problems, Application to linear models, Inner product spaces, Applications of inner product spaces.',
+                    image: '#',
+                    duration: '5 Hrs.',
+                    level: 'Advanced'
+                },
+                {
+                    id: 'Unit9',
+                    title: 'Groups and Subgroups',
+                    description: 'Binary Operations, Groups, Subgroups, Cyclic Groups.',
+                    image: '#',
+                    duration: '5 Hrs.',
+                    level: 'Advanced'
+                },
+                {
+                    id: 'Unit10',
+                    title: 'Rings and Fields',
+                    description: 'Rings and Fields, Integral domains.',
+                    image: '#',
+                    duration: '4 Hrs.',
+                    level: 'Advanced'
                 }
             ]
         }
@@ -130,11 +113,11 @@ const Csit = () => {
     return (
         <>
             <Navbar />
-            <PageHeader title="BSc.CSIT First Semister" path="/BSc.CSIT/Csit1" name="BSc.CSIT" />
+            <PageHeader title="Mathematics II (MTH163)" path="/BSc.CSIT/Csit2" name="BSc.CSIT" />
             <div className="courses-page">
                 <div className="container">
                     <div className="search-container">
-                        <h1>Our courses</h1>
+                        <h1>Mathematics II (MTH163)</h1>
                         <input
                             type="text"
                             className="search-input"
@@ -182,4 +165,4 @@ const Csit = () => {
     );
 };
 
-export default Csit; 
+export default MathematicsII;

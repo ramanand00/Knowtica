@@ -6,38 +6,69 @@ import PageHeader from '../../components/PageHeader';
 import BackToTop from '../../components/BackToTop';
 import '../../css/courses.css';
 
-const Csit = () => {
+const DiscreteStructures = () => {
     const [searchQuery, setSearchQuery] = useState('');
 
     const courseCategories = [
         {
-            id: 'frontend',
-            title: 'Hello ITians... Welcome to BSc.CSIT',
+            id: 'discrete-structures',
+            title: 'Hello ITians... Welcome to BSc.CSIT - Discrete Structures',
             courses: [
                 {
-                    id: 'Advanced Database',
-                    title: 'Advanced Database',
-                    description: 'Description',
-                    image: 'https://bookstation.in/cdn/shop/files/ADVANCED-DATABASE-MANAGEMENT-SYSTEM-INFORMATION-TECHNOLOGY-SEM-7-MAHESH-MALI-001.jpg?v=1690535868',
-                    duration: '90 days per semister',
-                    level: 'Basic/Startup'
+                    id: 'Unit1',
+                    title: 'Basic Discrete Structures (7 Hrs.)',
+                    description: 'Sets, Functions, Sequences and Summations',
+                    image: '#',
+                    duration: '7 Hrs.',
+                    level: 'Beginner'
                 },
                 {
-                    id: 'Elective IV',
-                    title: 'Elective IV',
-                    description: 'Description ',
-                    
-                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_Q8SSbatEnYw0cXs0X82jLgWnB3ny18pZbQ&s',
-                    duration: '90 days per semister',
+                    id: 'Unit2',
+                    title: 'Integers and Matrices (6 Hrs.)',
+                    description: 'Number Theory, Euclidean Algorithm, Boolean Matrices',
+                    image: '#',
+                    duration: '6 Hrs.',
                     level: 'Intermediate'
                 },
                 {
-                    id: 'Model',
+                    id: 'Unit3',
+                    title: 'Logic and Proof Methods (6 Hrs.)',
+                    description: 'Propositional Logic, Proof Techniques',
+                    image: '#',
+                    duration: '6 Hrs.',
+                    level: 'Intermediate'
+                },
+                {
+                    id: 'Unit4',
+                    title: 'Induction and Recursion (5 Hrs.)',
+                    description: 'Mathematical Induction, Recursive Algorithms',
+                    image: '#',
+                    duration: '5 Hrs.',
+                    level: 'Intermediate'
+                },
+                {
+                    id: 'Unit5',
+                    title: 'Counting and Discrete Probability (9 Hrs.)',
+                    description: 'Counting Techniques, Probability, Recurrence Relations',
+                    image: '#',
+                    duration: '9 Hrs.',
+                    level: 'Advanced'
+                },
+                {
+                    id: 'Unit6',
+                    title: 'Relations and Graphs (12 Hrs.)',
+                    description: 'Relations, Graph Theory, Trees, Network Flows',
+                    image: '#',
+                    duration: '12 Hrs.',
+                    level: 'Advanced'
+                },
+                {
+                    id: 'model',
                     title: 'Model Question Paper',
-                    description: 'Description',
-                    image: 'https://i.pinimg.com/736x/e9/0e/54/e90e541691d2ec8d98fa68c0f760495b.jpg',
-                    duration: '90 days per semister',
-                    level: 'Intermediate'
+                    description: 'Practice model questions based on the syllabus.',
+                    image: '#',
+                    duration: 'Variable',
+                    level: 'All Levels'
                 }
             ]
         }
@@ -58,24 +89,24 @@ const Csit = () => {
     return (
         <>
             <Navbar />
-            <PageHeader title="BSc.CSIT Last/Eighth Semister" path="/BSc.CSIT" name="BSc.CSIT" />
+            <PageHeader title="BSc.CSIT Second Semester - Discrete Structures" path="/BSc.CSIT/DiscreteStructures" name="BSc.CSIT" />
             <div className="courses-page">
                 <div className="container">
                     <div className="search-container">
-                        <h1>Our courses</h1>
+                        <h1>Course Units</h1>
                         <input
                             type="text"
                             className="search-input"
-                            placeholder="Search courses..."
+                            placeholder="Search units..."
                             value={searchQuery}
                             onChange={handleSearch}
                         />
                     </div>
-                    
+
                     {courseCategories.map((category) => {
                         const filteredCourses = filterCourses(category.courses);
                         if (filteredCourses.length === 0) return null;
-                        
+
                         return (
                             <div key={category.id} className="category-section">
                                 <h2 className="category-title">{category.title}</h2>
@@ -92,8 +123,8 @@ const Csit = () => {
                                                     <span className="duration">Duration: {course.duration}</span>
                                                     <span className="level">Level: {course.level}</span>
                                                 </div>
-                                                <Link to={`/csit/${course.id}`} className="view-course-button">
-                                                    View Course
+                                                <Link to={`/BSc.CSIT/${course.id}`} className="view-course-button">
+                                                    View Unit
                                                 </Link>
                                             </div>
                                         </div>
@@ -110,4 +141,4 @@ const Csit = () => {
     );
 };
 
-export default Csit; 
+export default DiscreteStructures;

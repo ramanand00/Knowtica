@@ -6,110 +6,77 @@ import PageHeader from '../../components/PageHeader';
 import BackToTop from '../../components/BackToTop';
 import '../../css/courses.css';
 
-const Csit = () => {
+const DataStructuresAndAlgorithms = () => {
     const [searchQuery, setSearchQuery] = useState('');
 
     const courseCategories = [
         {
             id: 'frontend',
-            title: 'Hello ITians... Welcome to BSc.CSIT',
+            title: 'Data Structures and Algorithms (CSC206)',
             courses: [
                 {
-                    id: 'Chapter1',
-                    title: 'Introduction to Computer',
-                    description: 'Description',
+                    id: 'Unit1',
+                    title: 'Introduction to Data Structures & Algorithms',
+                    description: 'Data types, Data structure and Abstract date type; Dynamic memory allocation in C; Introduction to Algorithms; Asymptotic notations and common functions.',
                     image: '#',
-                    duration: '90 days per semister',
-                    level: 'Basic/Startup'
+                    duration: '4 Hrs.',
+                    level: 'Beginner'
                 },
                 {
-                    id: 'Chapter2',
-                    title: 'The Computer System Hardware',
-                    description: 'Description ',
+                    id: 'Unit2',
+                    title: 'Stack',
+                    description: 'Basic Concept of Stack, Stack as an ADT, Stack Operations, Stack Applications; Conversion from infix to postfix/prefix expression, Evaluation of postfix/prefix expressions.',
                     image: '#',
-                    duration: '90 days per semister',
+                    duration: '4 Hrs.',
                     level: 'Intermediate'
                 },
                 {
-                    id: 'Chapter3',
-                    title: 'Computer Memory',
-                    description: 'Description',
+                    id: 'Unit3',
+                    title: 'Queue',
+                    description: 'Basic Concept of Queue, Queue as an ADT, Primitive Operations in Queue; Linear Queue, Circular Queue, Priority Queue, Queue Applications.',
                     image: '#',
-                    duration: '90 days per semister',
+                    duration: '4 Hrs.',
                     level: 'Intermediate'
                 },
                 {
-                    id: 'Chapter4',
-                    title: 'Input and Output Devices',
-                    description: 'Description',
+                    id: 'Unit4',
+                    title: 'Recursion',
+                    description: 'Principle of Recursion, Comparison between Recursion and Iteration, Tail Recursion; Factorial, Fibonacci Sequence, GCD, Tower of Hanoi(TOH); Applications and Efficiency of Recursion.',
                     image: '#',
-                    duration: '90 days per semister',
+                    duration: '3 Hrs.',
                     level: 'Intermediate'
                 },
                 {
-                    id: 'Chapter5',
-                    title: 'Data Representation',
-                    description: 'Description',
+                    id: 'Unit5',
+                    title: 'Lists',
+                    description: 'Basic Concept, List and ADT, Array Implementation of Lists, Linked List; Types of Linked List: Singly Linked List, Doubly Linked List, Circular Linked List; Basic operations in Linked List: Node Creation, Node Insertion and Deletion from Beginning, End and Specified Position.',
                     image: '#',
-                    duration: '90 days per semister',
-                    level: 'Intermediate'
+                    duration: '8 Hrs.',
+                    level: 'Advanced'
                 },
-                  {
-                     id: 'Chapter6',
-                     title: 'Computer Software',
-                     description: 'Description',
-                     image: '#',
-                     duration: '90 days per semister',
-                     level: 'Intermediate'
-                  },
-                  {
-                     id: 'Chapter7',
-                     title: 'Ddata Communication and Computer Network',
-                     description: 'Description',
-                     image: '#',
-                     duration: '90 days per semister',
-                     level: 'Intermediate'
-                  },
-                     
-                     {
-                        id: 'Chapter8',
-                        title: 'The Internet and Internet Services',
-                        description: 'Description',
-                        image: '#',
-                        duration: '90 days per semister',
-                        level: 'Intermediate'
-                     },
-                     {
-                        id: 'Chapter9',
-                        title: 'Fundamentals of Database',
-                        description: 'Description',
-                        image: '#',
-                        duration: '90 days per semister',
-                        level: 'Intermediate'
-                     },
-                     {
-                        id: 'Chapter10',
-                        title: 'Multimedia',
-                        description: 'Description',
-                        image: '#',
-                        duration: '90 days per semister',
-                        level: 'Intermediate'
-                     },
-                     {
-                        id: 'Chapter11',
-                        title: 'Computer Security',
-                        description: 'Description',
-                        image: '#',
-                        duration: '90 days per semister',
-                        level: 'Intermediate'
-                     },
                 {
-                    id: 'Model',
-                    title: 'Model Question Paper',
-                    description: 'Description',
+                    id: 'Unit6',
+                    title: 'Sorting',
+                    description: 'Introduction and Types of sorting: Internal and External sort; Comparison Sorting Algorithms: Bubble, Selection and Insertion Sort, Shell Sort; Divide and Conquer Sorting: Merge, Quick and Heap Sort; Efficiency of Sorting Algorithms.',
                     image: '#',
-                    duration: '90 days per semister',
-                    level: 'Intermediate'
+                    duration: '8 Hrs.',
+                    level: 'Advanced'
+                },
+                {
+                    id: 'Unit7',
+                    title: 'Searching and Hashing',
+                    description: 'Introduction to Searching, Search Algorithms: Sequential Search, Binary Search; Efficiency of Search Algorithms; Hashing: Hash Function and Hash Tables, Collision Resolution Techniques.',
+                    image: '#',
+                    duration: '6 Hrs.',
+                    level: 'Advanced'
+                },
+                {
+                    id: 'Unit8',
+                    title: 'Trees and Graphs',
+                    description: 'Concept and Definitions, Basic Operations in Binary Tree, Tree Height, Level and Depth; Binary Search Tree, Insertion, Deletion, Traversals, Search in BST; AVL tree and Balancing algorithm, Applications of Trees; Definition and Representation of Graphs, Graph Traversal, Minimum Spanning Trees: Kruskal and Prims Algorithm; Shortest Path Algorithms: Dijkstra Algorithm.',
+                    image: '#',
+                    duration: '8 Hrs.',
+                    level: 'Advanced'
                 }
             ]
         }
@@ -130,11 +97,11 @@ const Csit = () => {
     return (
         <>
             <Navbar />
-            <PageHeader title="BSc.CSIT First Semister" path="/BSc.CSIT/Csit1" name="BSc.CSIT" />
+            <PageHeader title="Data Structures and Algorithms (CSC206)" path="/BSc.CSIT/Csit3" name="BSc.CSIT" />
             <div className="courses-page">
                 <div className="container">
                     <div className="search-container">
-                        <h1>Our courses</h1>
+                        <h1>Data Structures and Algorithms (CSC206)</h1>
                         <input
                             type="text"
                             className="search-input"
@@ -182,4 +149,4 @@ const Csit = () => {
     );
 };
 
-export default Csit; 
+export default DataStructuresAndAlgorithms;

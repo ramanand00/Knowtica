@@ -18,7 +18,7 @@ const Csit = () => {
                     id: 'Design and Analysis of Algorithm',
                     title: 'Design and Analysis of Algorithm',
                     description: 'Description',
-                    image: 'https://www.svgrepo.com/show/62204/student.svg',
+                    image: 'https://technicalpublications.in/cdn/shop/products/9789355851239_1_36e22e2f-47e4-47a6-9673-9d32aaa949a1.jpg?v=1688627816',
                     duration: '90 days per semister',
                     level: 'Basic/Startup'
                 },
@@ -27,7 +27,7 @@ const Csit = () => {
                     title: 'System Analysis and Design',
                     description: 'Description ',
                     
-                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKfTIIPGMMqmzVSGl0Jthggt5FtELsPaAeAg&s',
+                    image: 'https://pictures.abebooks.com/isbn/9780357237649-us.jpg',
                     duration: '90 days per semister',
                     level: 'Intermediate'
                 },
@@ -35,7 +35,7 @@ const Csit = () => {
                     id: 'Cryptography',
                     title: 'Cryptography',
                     description: 'Description',
-                    image: 'https://img.freepik.com/free-vector/student-club-abstract-concept-vector-illustration-student-organization-university-interest-club-afterschool-activity-program-college-association-professional-hobby-society-abstract-metaphor_335657-5900.jpg?semt=ais_hybrid&w=740',
+                    image: 'https://learning.oreilly.com/library/cover/9781482228892/250w/',
                     duration: '90 days per semister',
                     level: 'Intermediate'
                 },
@@ -43,7 +43,7 @@ const Csit = () => {
                     id: 'Simulation and Modeling',
                     title: 'Simulation and Modeling',
                     description: 'Description',
-                    image: 'https://img.freepik.com/free-vector/workplace-culture-abstract-concept-vector-illustration-shared-values-belief-systems-attitude-work-company-team-corporate-culture-high-performance-employee-health-abstract-metaphor_335657-6126.jpg?w=360',
+                    image: 'https://www.simio.com/wp-content/uploads/2024/07/workbook_5e_cover_3d.png',
                     duration: '90 days per semister',
                     level: 'Intermediate'
                 },
@@ -51,7 +51,7 @@ const Csit = () => {
                     id: 'Web Technology',
                     title: 'Web Technology',
                     description: 'Description',
-                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8Ot1zFx25AM8IfPz4J_WjBXs1jylgfCh73Q&s',
+                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUVN3ihbNmC9GnMYoY0HXs8QRH-k9NzwFmtA&s',
                     duration: '90 days per semister',
                     level: 'Intermediate'
                 },
@@ -59,7 +59,7 @@ const Csit = () => {
                     id: 'Elective I',
                     title: 'Elective I',
                     description: 'Description',
-                    image: 'https://i.pinimg.com/736x/e9/0e/54/e90e541691d2ec8d98fa68c0f760495b.jpg',
+                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_Q8SSbatEnYw0cXs0X82jLgWnB3ny18pZbQ&s',
                     duration: '90 days per semister',
                     level: 'Intermediate'
                 }
@@ -82,7 +82,7 @@ const Csit = () => {
     return (
         <>
             <Navbar />
-            <PageHeader title="BSc.CSIT Fourth Semister" path="/BSc.CSIT" name="BSc.CSIT" />
+            <PageHeader title="BSc.CSIT Fifth Semister" path="/BSc.CSIT" name="BSc.CSIT" />
             <div className="courses-page">
                 <div className="container">
                     <div className="search-container">

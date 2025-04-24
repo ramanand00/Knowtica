@@ -6,62 +6,69 @@ import PageHeader from '../../components/PageHeader';
 import BackToTop from '../../components/BackToTop';
 import '../../css/courses.css';
 
-const Csit = () => {
+const StatisticsI = () => {
     const [searchQuery, setSearchQuery] = useState('');
 
     const courseCategories = [
         {
-            id: 'CSIT2',
-            title: 'Hello ITians... Welcome to BSc.CSIT',
+            id: 'frontend',
+            title: 'Statistics I (STA164)',
             courses: [
                 {
-                    id: 'Discrete_Structure',
-                    title: 'Discrete Structure',
-                    description: 'Description',
-                    image: 'https://m.media-amazon.com/images/I/91QX5zcALtL._AC_UF894,1000_QL80_.jpg',
-                    duration: '90 days per semister',
-                    level: 'Basic/Startup'
+                    id: 'Unit1',
+                    title: 'Introduction',
+                    description: 'Basic concept of statistics; Application of Statistics in the field of Computer Science & Information technology; Scales of measurement; Variables; Types of Data; Notion of a statistical population.',
+                    image: '#',
+                    duration: '4 Hrs.',
+                    level: 'Beginner'
                 },
                 {
-                    id: 'Object_Oriented_Programming',
-                    title: 'Object-Oriented Programming',
-                    description: 'Description ',
-                    
-                    image: 'https://media.springernature.com/full/springer-static/cover-hires/book/978-1-4842-5404-2',
-                    duration: '90 days per semister',
+                    id: 'Unit2',
+                    title: 'Descriptive Statistics',
+                    description: 'Measures of central tendency; Measures of dispersion; Measures of skewness; Measures of kurtosis; Moments; Steam and leaf display; five number summary; box plot. Problems and illustrative examples related to computer Science and IT.',
+                    image: '#',
+                    duration: '6 Hrs.',
                     level: 'Intermediate'
                 },
                 {
-                    id: 'Microprocessor',
-                    title: 'Microprocessor',
-                    description: 'Description',
-                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNDG14GtKJtdVyiNMczLCcwapc9jB_dqo_Lw&s',
-                    duration: '90 days per semister',
+                    id: 'Unit3',
+                    title: 'Introduction to Probability',
+                    description: 'Concepts of probability; Definitions of probability; Laws of probability; Bayes theorem; prior and posterior probabilities. Problems and illustrative examples related to computer Science and IT.',
+                    image: '#',
+                    duration: '8 Hrs.',
                     level: 'Intermediate'
                 },
                 {
-                    id: 'Mathematics_II',
-                    title: 'Mathematics II',
-                    description: 'Description',
-                    image: 'https://img.drz.lazcdn.com/static/np/p/7cc88ca8a4d0259c2af90e2326903843.jpg_720x720q80.jpg',
-                    duration: '90 days per semister',
+                    id: 'Unit4',
+                    title: 'Sampling',
+                    description: 'Definitions of population; sample survey vs. census survey; sampling error and non-sampling error; Types of sampling.',
+                    image: '#',
+                    duration: '3 Hrs.',
                     level: 'Intermediate'
                 },
                 {
-                    id: 'Statistics_I',
-                    title: 'Statistics-I',
-                    description: 'Description',
-                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQliazYDrfSQhhmIwZw0TiJlm2c1YyPvOP9Q&s',
-                    duration: '90 days per semister',
-                    level: 'Intermediate'
+                    id: 'Unit5',
+                    title: 'Random Variables and Mathematical Expectation',
+                    description: 'Concept of a random variable; Types of random variables; Probability distribution of a random variable; Mathematical expectation of a random variable; Addition and multiplicative theorems of expectation. Problems and illustrative examples related to computer Science and IT.',
+                    image: '#',
+                    duration: '5 Hrs.',
+                    level: 'Advanced'
                 },
                 {
-                    id: 'Model',
-                    title: 'Model Question Paper',
-                    description: 'Description',
-                    image: 'https://i.pinimg.com/736x/e9/0e/54/e90e541691d2ec8d98fa68c0f760495b.jpg',
-                    duration: '90 days per semister',
-                    level: 'Intermediate'
+                    id: 'Unit6',
+                    title: 'Probability Distributions',
+                    description: 'Probability distribution function, Joint probability distribution of two random variables; Discrete distributions: Bernoulli trial, Binomial and Poisson distributions; Continuous distribution: Normal distributions; Standardization of normal distribution; Normal distribution as an approximation of Binomial and Poisson distribution; Exponential, Gamma distribution. Problems and illustrative examples related to computer Science and IT.',
+                    image: '#',
+                    duration: '12 Hrs.',
+                    level: 'Advanced'
+                },
+                {
+                    id: 'Unit7',
+                    title: 'Correlation and Linear Regression',
+                    description: 'Bivariate data; Bivariate frequency distribution; Correlation between two variables; Karl Pearson’s coefficient of correlation(r); Spearman’s rank correlation; Regression Analysis: Fitting of lines of regression by the least squares method; coefficient of determination.',
+                    image: '#',
+                    duration: '7 Hrs.',
+                    level: 'Advanced'
                 }
             ]
         }
@@ -82,11 +89,11 @@ const Csit = () => {
     return (
         <>
             <Navbar />
-            <PageHeader title="BSc.CSIT Second Semister" path="/BSc.CSIT" name="BSc.CSIT" />
+            <PageHeader title="Statistics I (STA164)" path="/BSc.CSIT/Csit2" name="BSc.CSIT" />
             <div className="courses-page">
                 <div className="container">
                     <div className="search-container">
-                        <h1>Our courses</h1>
+                        <h1>Statistics I (STA164)</h1>
                         <input
                             type="text"
                             className="search-input"
@@ -134,4 +141,4 @@ const Csit = () => {
     );
 };
 
-export default Csit; 
+export default StatisticsI;

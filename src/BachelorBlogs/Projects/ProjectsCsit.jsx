@@ -11,81 +11,127 @@ const Csit = () => {
 
     const courseCategories = [
         {
-            id: 'frontend',
-            title: 'Hello ITians... Welcome to BSc.CSIT',
+            id: 'ProjectsCsit',
+            title: 'Welcome to The Real World of Information Technology',
             courses: [
                 {
-                    id: 'Csit1',
-                    title: 'BSc.CSIT First Semister',
+                    id: 'Blockchain Projects',
+                    title: 'Blockchain Projects',
                     description: 'Description',
-                    image: 'https://www.svgrepo.com/show/62204/student.svg',
+                    image: 'https://cdn.pixabay.com/photo/2019/08/21/02/57/network-4420048_1280.jpg',
                     duration: '90 days per semister',
                     level: 'Basic/Startup'
                 },
                 {
-                    id: 'Csit2',
-                    title: 'BSc.CSIT Second Semister',
-                    description: 'Description',
-                    
-                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKfTIIPGMMqmzVSGl0Jthggt5FtELsPaAeAg&s',
+                    id: 'AR & VR Projects',
+                    title: 'AR & VR Projects',
+                    description: 'Description ',
+                    image: 'https://cdn.pixabay.com/photo/2024/05/19/19/47/ai-generated-8773231_1280.png',
                     duration: '90 days per semister',
                     level: 'Intermediate'
                 },
                 {
-                    id: 'Csit3',
-                    title: 'BSc.CSIT Third Semister',
+                    id: 'Information Security Projects',
+                    title: 'Information Security Projects',
                     description: 'Description',
-                    image: 'https://img.freepik.com/free-vector/student-club-abstract-concept-vector-illustration-student-organization-university-interest-club-afterschool-activity-program-college-association-professional-hobby-society-abstract-metaphor_335657-5900.jpg?semt=ais_hybrid&w=740',
+                    image: 'https://cdn.pixabay.com/photo/2018/05/31/10/51/cyber-security-3443628_1280.jpg',
                     duration: '90 days per semister',
                     level: 'Intermediate'
                 },
                 {
-                    id: 'Csit4',
-                    title: 'BSc.CSIT Fourth Semister',
+                    id: 'Artificial Intelligence Projects',
+                    title: 'Artificial Intelligence Projects',
                     description: 'Description',
-                    image: 'https://img.freepik.com/free-vector/workplace-culture-abstract-concept-vector-illustration-shared-values-belief-systems-attitude-work-company-team-corporate-culture-high-performance-employee-health-abstract-metaphor_335657-6126.jpg?w=360',
+                    image: 'https://cdn.pixabay.com/photo/2022/04/04/16/42/ai-7111803_1280.jpg',
                     duration: '90 days per semister',
                     level: 'Intermediate'
                 },
                 {
-                    id: 'Csit5',
-                    title: 'BSc.CSIT Fifth Semister',
+                    id: 'Cloud Computing Projects',
+                    title: 'Cloud Computing Projects',
                     description: 'Description',
-                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8Ot1zFx25AM8IfPz4J_WjBXs1jylgfCh73Q&s',
+                    image: 'https://cdn.pixabay.com/photo/2023/03/06/05/52/cloud-7832679_1280.jpg',
                     duration: '90 days per semister',
                     level: 'Intermediate'
                 },
                 {
-                    id: 'Csit6',
-                    title: 'BSc.CSIT Sixth Semister',
+                    id: 'Data Science Projects',
+                    title: 'Data Science Projects',
                     description: 'Description',
-                    image: 'https://www.addwebsolution.com/app/uploads/2024/05/Head-Banner-581_408-5.svg',
+                    image: 'https://cdn.pixabay.com/photo/2019/08/06/22/48/artificial-intelligence-4389372_1280.jpg',
                     duration: '90 days per semister',
                     level: 'Intermediate'
                 },
                 {
-                    id: 'Csit7',
-                    title: 'BSc.CSIT Seventh Semister',
+                    id: 'Machine Learning Projects',
+                    title: 'Machine Learning Projects',
                     description: 'Description',
-                    image: 'https://static.thenounproject.com/png/2142891-200.png',
+                    image: 'https://cdn.pixabay.com/photo/2024/07/10/09/30/ai-generated-8885336_1280.jpg',
                     duration: '90 days per semister',
                     level: 'Intermediate'
                 },
                 {
-                    id: 'Csit8',
-                    title: 'BSc.CSIT Last Semister',
+                    id: 'Web Development Projects',
+                    title: 'Web Development Projects',
                     description: 'Description',
-                    image: 'https://www.svgrepo.com/show/29505/businessman-with-suitcase-going-to-work-in-a-city.svg',
+                    image: 'https://cdn.pixabay.com/photo/2024/05/21/19/57/computer-8779036_1280.jpg',
                     duration: '90 days per semister',
-                    level: 'College_Final'
+                    level: 'Intermediate'
                 },
                 {
-                    id: 'projects_csit',
-                    title: 'Projects for You',
+                    id: 'Mobile Development Projects',
+                    title: 'Mobile Development Projects',
                     description: 'Description',
-                    image: 'https://cdni.iconscout.com/illustration/premium/thumb/5g-technology-illustration-download-in-svg-png-gif-file-formats--network-connection-tower-pack-science-illustrations-4606256.png?f=webp',
+                    image: 'https://cdn.pixabay.com/photo/2016/03/16/09/47/objectives-1260139_1280.jpg',
                     duration: '90 days per semister',
-                    level: 'Projects_Handeling'
+                    level: 'Intermediate'
+                },
+                {
+                    id: 'Cyber Security Projects',
+                    title: 'Cyber Security Projects',
+                    description: 'Description',
+                    image: 'https://cdn.pixabay.com/photo/2023/07/19/06/20/ai-generated-8136170_1280.png',
+                    duration: '90 days per semister',
+                    level: 'Intermediate'
+                },
+                {
+                    id: 'Ethical Hacking Projects',
+                    title: 'Ethical Hacking Projects',
+                    description: 'Description',
+                    image: 'https://cdn.pixabay.com/photo/2018/10/06/16/10/security-3728124_1280.jpg',
+                    duration: '90 days per semister',
+                    level: 'Intermediate'
+                },
+                {
+                    id: 'Internet of Things Projects',
+                    title: 'Internet of Things Projects',
+                    description: 'Description',
+                    image: 'https://cdn.pixabay.com/photo/2023/06/03/15/01/computer-8037837_1280.jpg',
+                    duration: '90 days per semister',
+                    level: 'Intermediate'
+                },
+                {
+                    id: 'Digital Marketing Projects',
+                    title: 'Digital Marketing Projects',
+                    description: 'Description',
+                    image: 'https://cdn.pixabay.com/photo/2024/02/08/02/53/digital-8560051_1280.jpg',
+                    duration: '90 days per semister',
+                },
+                {
+                    id: 'Game Development Projects',
+                    title: 'Game Development Projects',
+                    description: 'Description',
+                    image: 'https://cdn.pixabay.com/photo/2024/08/03/20/18/ai-generated-8943016_1280.jpg',
+                    duration: '90 days per semister',
+                    level: 'Intermediate'
+                },
+                {
+                    id: 'Robotics Projects',
+                    title: 'Robotics Projects',
+                    description: 'Description',
+                    image: 'https://cdn.pixabay.com/photo/2023/10/09/11/31/woman-8303937_1280.png',
+                    duration: '90 days per semister',
+                    level: 'Intermediate'
                 }
             ]
         }
@@ -106,11 +152,11 @@ const Csit = () => {
     return (
         <>
             <Navbar />
-            <PageHeader title="Batchelor of Science in Computer Science & Information Technology" path="/BSc.CSIT" name="BSc.CSIT" />
+            <PageHeader title="BSc.CSIT Last/Eighth Semister" path="/BSc.CSIT" name="BSc.CSIT" />
             <div className="courses-page">
                 <div className="container">
                     <div className="search-container">
-                        <h1>Our courses</h1>
+                        <h1>Our Projects for you</h1>
                         <input
                             type="text"
                             className="search-input"
@@ -140,8 +186,8 @@ const Csit = () => {
                                                     <span className="duration">Duration: {course.duration}</span>
                                                     <span className="level">Level: {course.level}</span>
                                                 </div>
-                                                <Link to={`/BSc.CSIT/${course.id}`} className="view-course-button">
-                                                    View Course
+                                                <Link to={`/csit/${course.id}`} className="view-course-button">
+                                                    View Projects
                                                 </Link>
                                             </div>
                                         </div>

@@ -24,6 +24,33 @@ import Csit5 from "./BachelorBlogs/Csit5/Csit5";
 import Csit6 from "./BachelorBlogs/Csit6/Csit6";
 import Csit7 from "./BachelorBlogs/Csit7/Csit7";
 import Csit8 from "./BachelorBlogs/Csit8/Csit8";
+import ProjectsCsit from "./BachelorBlogs/Projects/ProjectsCsit";
+
+// BSc.csit First Semister Courses
+import Cprogramming from "./BachelorBlogs/Csit1/Cprogramming"; // C Programming
+import IIT from "./BachelorBlogs/Csit1/IIT"; // Introduction to Information Technology
+import DigitalLogic from "./BachelorBlogs/Csit1/DigitalLogic"; // Digital Logic
+import Mathematics from "./BachelorBlogs/Csit1/Mathematics"; // Mathematics I
+import Physics from "./BachelorBlogs/Csit1/Physics"; // Physics
+
+// BSc.csit Second Semister Courses
+import Discrete_Structure from "./BachelorBlogs/Csit2/Discrete_Structure"; // Data Structure and Algorithm
+import Object_Oriented_Programming from "./BachelorBlogs/Csit2/Object_Oriented_Programming"; // Object Oriented Programming
+import Mathematics_II from "./BachelorBlogs/Csit2/Mathematics_II"; // Mathematics II
+import Microprocessor from "./BachelorBlogs/Csit2/Microprocessor"; // Microprocessor
+import Statistics_I from "./BachelorBlogs/Csit2/Statistics_I"; // Statistics I
+
+// BSc.csit Third Semister Courses
+import Computer_Architecture from "./BachelorBlogs/Csit3/Computer_Architecture"; // Computer Architecture
+import Computer_Graphics from "./BachelorBlogs/Csit3/Computer_Graphics"; // Computer Graphics
+import Data_Structures_and_Algorithms from "./BachelorBlogs/Csit3/Data_Structure_and_Algorithm";
+import Numerical_Method from "./BachelorBlogs/Csit3/Numerical_Method"; // Numerical Methods
+import Statistics_II from "./BachelorBlogs/Csit3/Statistics_II"; // Statistics II
+
+
+
+
+
 
 // Lets Import the courses
 import AngularCourse from "./pages/courses/courses/AngularCourse";
@@ -74,6 +101,28 @@ export default function App() {
         <Route exact path="/BSc.CSIT/csit6" element={<Csit6 />} />
         <Route exact path="/BSc.CSIT/csit7" element={<Csit7 />} />
         <Route exact path="/BSc.CSIT/csit8" element={<Csit8 />} />
+        <Route exact path="/BSc.CSIT/projects_csit" element={<ProjectsCsit />} />
+
+        {/*  BSc.csit First Semister Courses */}
+        <Route exact path="/BSc.CSIT/IIT" element={<IIT />} />
+        <Route exact path="/BSc.CSIT/Cprogramming" element={<Cprogramming />} />
+        <Route exact path="/BSc.CSIT/DigitalLogic" element={<DigitalLogic />} />
+        <Route exact path="/BSc.CSIT/Mathematics" element={<Mathematics />} />
+        <Route exact path="/BSc.CSIT/Physics" element={<Physics />} />
+
+        {/* BSc.csit Second Semister Courses */}
+        <Route exact path="/BSc.CSIT/Discrete_Structure" element={<Discrete_Structure />} />
+        <Route exact path="/BSc.CSIT/Object_Oriented_Programming" element={<Object_Oriented_Programming />} />
+        <Route exact path="/BSc.CSIT/Statistics_I" element={<Statistics_I />} />
+        <Route exact path="/BSc.CSIT/Mathematics_II" element={<Mathematics_II />} />
+        <Route exact path="/BSc.CSIT/Microprocessor" element={<Microprocessor />} />
+
+        {/* BSc.csit Third Semister Courses */}
+        <Route exact path="/BSc.CSIT/Computer_Architecture" element={<Computer_Architecture />} />
+        <Route exact path="/BSc.CSIT/Computer_Graphics" element={<Computer_Graphics />} />
+        <Route exact path="/BSc.CSIT/Data_Structures_and_Algorithms" element={<Data_Structures_and_Algorithms />} />
+        <Route exact path="/BSc.CSIT/Numerical_Method" element={<Numerical_Method />} />
+        <Route exact path="/BSc.CSIT/Statistics_II" element={<Statistics_II />} />
 
         {/* let's import the courses */}
         <Route exact path="/courses/angular" element={<AngularCourse />} />

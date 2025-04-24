@@ -18,7 +18,7 @@ const Csit = () => {
                     id: 'Software Engineering',
                     title: 'Software Engineering',
                     description: 'Description',
-                    image: 'https://www.svgrepo.com/show/62204/student.svg',
+                    image: 'https://img.drz.lazcdn.com/static/np/p/350ae1372f60b26bc26f0dfd3f3ec622.jpg_720x720q80.jpg',
                     duration: '90 days per semister',
                     level: 'Basic/Startup'
                 },
@@ -27,7 +27,7 @@ const Csit = () => {
                     title: 'E-Governance',
                     description: 'Description ',
                     
-                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKfTIIPGMMqmzVSGl0Jthggt5FtELsPaAeAg&s',
+                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG70dkCUaV2U2eJObp8nq3lZfoOcC9jsz_NA&s',
                     duration: '90 days per semister',
                     level: 'Intermediate'
                 },
@@ -35,7 +35,7 @@ const Csit = () => {
                     id: 'NET Centric Computing',
                     title: 'NET Centric Computing',
                     description: 'Description',
-                    image: 'https://img.freepik.com/free-vector/student-club-abstract-concept-vector-illustration-student-organization-university-interest-club-afterschool-activity-program-college-association-professional-hobby-society-abstract-metaphor_335657-5900.jpg?semt=ais_hybrid&w=740',
+                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjPYxLfJnf3unDVDIqGbHpVoRRqLSCjbh7Ng&s',
                     duration: '90 days per semister',
                     level: 'Intermediate'
                 },
@@ -43,7 +43,7 @@ const Csit = () => {
                     id: 'Elective II',
                     title: 'Elective II',
                     description: 'Description',
-                    image: 'https://img.freepik.com/free-vector/workplace-culture-abstract-concept-vector-illustration-shared-values-belief-systems-attitude-work-company-team-corporate-culture-high-performance-employee-health-abstract-metaphor_335657-6126.jpg?w=360',
+                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_Q8SSbatEnYw0cXs0X82jLgWnB3ny18pZbQ&s',
                     duration: '90 days per semister',
                     level: 'Intermediate'
                 },
@@ -51,7 +51,7 @@ const Csit = () => {
                     id: 'Technical Wiring',
                     title: 'Technical Wiring',
                     description: 'Description',
-                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8Ot1zFx25AM8IfPz4J_WjBXs1jylgfCh73Q&s',
+                    image: 'https://m.media-amazon.com/images/I/61JOair8H+L._AC_UF1000,1000_QL80_.jpg',
                     duration: '90 days per semister',
                     level: 'Intermediate'
                 },
@@ -59,7 +59,7 @@ const Csit = () => {
                     id: 'Compiler Design and Construction',
                     title: 'Compiler Design and Construction',
                     description: 'Description',
-                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8Ot1zFx25AM8IfPz4J_WjBXs1jylgfCh73Q&s',
+                    image: 'https://technicalpublications.in/cdn/shop/products/9789355853967_1.jpg?v=1685358984',
                     duration: '90 days per semister',
                     level: 'Intermediate'
                 },
@@ -67,7 +67,7 @@ const Csit = () => {
                     id: 'Model',
                     title: 'Model Question Paper',
                     description: 'Description',
-                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8Ot1zFx25AM8IfPz4J_WjBXs1jylgfCh73Q&s',
+                    image: 'https://i.pinimg.com/736x/e9/0e/54/e90e541691d2ec8d98fa68c0f760495b.jpg',
                     duration: '90 days per semister',
                     level: 'Intermediate'
                 }

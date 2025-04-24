@@ -18,7 +18,7 @@ const Csit = () => {
                     id: 'Advanced Java Programming',
                     title: 'Advanced Java Programming',
                     description: 'Description',
-                    image: 'https://www.svgrepo.com/show/62204/student.svg',
+                    image: 'https://techknowledgebooks.com/wp-content/uploads/2024/01/Advanced-JAVA-Programming-PE149A-scaled.jpg',
                     duration: '90 days per semister',
                     level: 'Basic/Startup'
                 },
@@ -26,7 +26,7 @@ const Csit = () => {
                     id: 'Data Warehousing and Data Mining',
                     title: 'Data Warehousing and Data Mining',
                     description: 'Description ',
-                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKfTIIPGMMqmzVSGl0Jthggt5FtELsPaAeAg&s',
+                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTprMuganvNw-b9Os3OVr5zcTrMj9pAilXuBw&s',
                     duration: '90 days per semister',
                     level: 'Intermediate'
                 },
@@ -34,7 +34,7 @@ const Csit = () => {
                     id: 'Principle of Management',
                     title: 'Principle of Management',
                     description: 'Description',
-                    image: 'https://img.freepik.com/free-vector/student-club-abstract-concept-vector-illustration-student-organization-university-interest-club-afterschool-activity-program-college-association-professional-hobby-society-abstract-metaphor_335657-5900.jpg?semt=ais_hybrid&w=740',
+                    image: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1611810585i/56864422.jpg',
                     duration: '90 days per semister',
                     level: 'Intermediate'
                 },
@@ -50,7 +50,7 @@ const Csit = () => {
                     id: 'Elective III',
                     title: 'Elective III',
                     description: 'Description',
-                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8Ot1zFx25AM8IfPz4J_WjBXs1jylgfCh73Q&s',
+                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_Q8SSbatEnYw0cXs0X82jLgWnB3ny18pZbQ&s',
                     duration: '90 days per semister',
                     level: 'Intermediate'
                 },

@@ -18,7 +18,7 @@ const Csit = () => {
                     id: 'IIT',
                     title: 'Introduction To Information Technology  ',
                     description: 'Description',
-                    image: 'https://www.svgrepo.com/show/62204/student.svg',
+                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEoRc1boLsnZDG-nhY8SLBMuiEBrTrIvARyg&s',
                     duration: '90 days per semister',
                     level: 'Basic/Startup'
                 },
@@ -27,7 +27,7 @@ const Csit = () => {
                     title: 'C Programming',
                     description: 'Description ',
                     
-                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKfTIIPGMMqmzVSGl0Jthggt5FtELsPaAeAg&s',
+                    image: 'https://m.media-amazon.com/images/I/61oVftUAhcL._AC_UF1000,1000_QL80_.jpg',
                     duration: '90 days per semister',
                     level: 'Intermediate'
                 },
@@ -35,15 +35,15 @@ const Csit = () => {
                     id: 'DigitalLogic',
                     title: 'Digital Logic',
                     description: 'Description',
-                    image: 'https://img.freepik.com/free-vector/student-club-abstract-concept-vector-illustration-student-organization-university-interest-club-afterschool-activity-program-college-association-professional-hobby-society-abstract-metaphor_335657-5900.jpg?semt=ais_hybrid&w=740',
+                    image: 'https://heritagebooks.com.np/wp-content/uploads/2022/11/viber_image_2022-11-10_13-01-42-468.jpg',
                     duration: '90 days per semister',
                     level: 'Intermediate'
                 },
                 {
-                    id: 'Math',
+                    id: 'Mathematics',
                     title: 'Mathematics I',
                     description: 'Description',
-                    image: 'https://img.freepik.com/free-vector/workplace-culture-abstract-concept-vector-illustration-shared-values-belief-systems-attitude-work-company-team-corporate-culture-high-performance-employee-health-abstract-metaphor_335657-6126.jpg?w=360',
+                    image: 'https://img.drz.lazcdn.com/static/np/p/7cc88ca8a4d0259c2af90e2326903843.jpg_720x720q80.jpg',
                     duration: '90 days per semister',
                     level: 'Intermediate'
                 },
@@ -51,7 +51,7 @@ const Csit = () => {
                     id: 'Physics',
                     title: 'Physics',
                     description: 'Description',
-                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8Ot1zFx25AM8IfPz4J_WjBXs1jylgfCh73Q&s',
+                    image: 'https://heritagebooks.com.np/wp-content/uploads/2019/06/1532767658dhanpat_rai0011.jpg',
                     duration: '90 days per semister',
                     level: 'Intermediate'
                 },
@@ -116,7 +116,7 @@ const Csit = () => {
                                                     <span className="duration">Duration: {course.duration}</span>
                                                     <span className="level">Level: {course.level}</span>
                                                 </div>
-                                                <Link to={`/csit/${course.id}`} className="view-course-button">
+                                                <Link to={`/BSc.CSIT/${course.id}`} className="view-course-button">
                                                     View Course
                                                 </Link>
                                             </div>

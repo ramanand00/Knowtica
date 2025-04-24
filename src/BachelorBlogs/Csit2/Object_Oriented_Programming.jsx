@@ -11,57 +11,72 @@ const Csit = () => {
 
     const courseCategories = [
         {
-            id: 'CSIT2',
-            title: 'Hello ITians... Welcome to BSc.CSIT',
+            id: 'frontend',
+            title: 'Object Oriented Programming (CSC161)',
             courses: [
                 {
-                    id: 'Discrete_Structure',
-                    title: 'Discrete Structure',
-                    description: 'Description',
-                    image: 'https://m.media-amazon.com/images/I/91QX5zcALtL._AC_UF894,1000_QL80_.jpg',
-                    duration: '90 days per semister',
-                    level: 'Basic/Startup'
+                    id: 'Unit1',
+                    title: 'Introduction to Object Oriented Programming',
+                    description: 'Overview of structured programming approach, Object oriented programming approach, Characteristics of object oriented languages.',
+                    image: '#',
+                    duration: '3 Hrs.',
+                    level: 'Beginner'
                 },
                 {
-                    id: 'Object_Oriented_Programming',
-                    title: 'Object-Oriented Programming',
-                    description: 'Description ',
-                    
-                    image: 'https://media.springernature.com/full/springer-static/cover-hires/book/978-1-4842-5404-2',
-                    duration: '90 days per semister',
+                    id: 'Unit2',
+                    title: 'Basics of C++ Programming',
+                    description: 'C++ Program Structure, Character Set and Tokens, Data Type, Type Conversion, Preprocessor Directives, Namespace, Input/Output Streams and Manipulators, Dynamic Memory Allocation with new and delete, Control Statements.',
+                    image: '#',
+                    duration: '5 Hrs.',
+                    level: 'Beginner'
+                },
+                {
+                    id: 'Unit3',
+                    title: 'Classes & Objects',
+                    description: 'A Simple Class and Object, Accessing members of class, Initialization of class objects, Constructors, Destructors, Objects as Function Arguments, Static members, Member functions defined outside the class.',
+                    image: '#',
+                    duration: '8 Hrs.',
                     level: 'Intermediate'
                 },
                 {
-                    id: 'Microprocessor',
-                    title: 'Microprocessor',
-                    description: 'Description',
-                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNDG14GtKJtdVyiNMczLCcwapc9jB_dqo_Lw&s',
-                    duration: '90 days per semister',
+                    id: 'Unit4',
+                    title: 'Operator Overloading',
+                    description: 'Fundamentals of operator overloading, Restrictions, Unary and binary operator overloading, Data Conversion between types.',
+                    image: '#',
+                    duration: '7 Hrs.',
                     level: 'Intermediate'
                 },
                 {
-                    id: 'Mathematics_II',
-                    title: 'Mathematics II',
-                    description: 'Description',
-                    image: 'https://img.drz.lazcdn.com/static/np/p/7cc88ca8a4d0259c2af90e2326903843.jpg_720x720q80.jpg',
-                    duration: '90 days per semister',
+                    id: 'Unit5',
+                    title: 'Inheritance',
+                    description: 'Introduction to inheritance, Derived and Base Class, Types of inheritance, Constructor and Destructor in derived classes, Aggregation.',
+                    image: '#',
+                    duration: '7 Hrs.',
                     level: 'Intermediate'
                 },
                 {
-                    id: 'Statistics_I',
-                    title: 'Statistics-I',
-                    description: 'Description',
-                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQliazYDrfSQhhmIwZw0TiJlm2c1YyPvOP9Q&s',
-                    duration: '90 days per semister',
-                    level: 'Intermediate'
+                    id: 'Unit6',
+                    title: 'Virtual Function, Polymorphism, and Miscellaneous C++ Features',
+                    description: 'Concept of Virtual functions, Late Binding, Abstract class, Pure virtual functions, Polymorphism, Friend function, Static function, This pointer.',
+                    image: '#',
+                    duration: '5 Hrs.',
+                    level: 'Advanced'
                 },
                 {
-                    id: 'Model',
-                    title: 'Model Question Paper',
-                    description: 'Description',
-                    image: 'https://i.pinimg.com/736x/e9/0e/54/e90e541691d2ec8d98fa68c0f760495b.jpg',
-                    duration: '90 days per semister',
-                    level: 'Intermediate'
+                    id: 'Unit7',
+                    title: 'Function Templates and Exception Handling',
+                    description: 'Function templates, Class templates, Exception Handling (Try, throw, and catch), Use of exceptional handling in C++.',
+                    image: '#',
+                    duration: '4 Hrs.',
+                    level: 'Advanced'
+                },
+                {
+                    id: 'Unit8',
+                    title: 'File Handling',
+                    description: 'Stream Class Hierarchy, Formatted/Unformatted Input/Output, File Input/Output, Opening/Closing Files, File Access Pointers, Sequential and Random Access to File.',
+                    image: '#',
+                    duration: '6 Hrs.',
+                    level: 'Advanced'
                 }
             ]
         }
@@ -82,11 +97,11 @@ const Csit = () => {
     return (
         <>
             <Navbar />
-            <PageHeader title="BSc.CSIT Second Semister" path="/BSc.CSIT" name="BSc.CSIT" />
+            <PageHeader title="Object Oriented Programming (CSC161)" path="/BSc.CSIT/Csit2" name="BSc.CSIT" />
             <div className="courses-page">
                 <div className="container">
                     <div className="search-container">
-                        <h1>Our courses</h1>
+                        <h1>Object Oriented Programming (CSC161)</h1>
                         <input
                             type="text"
                             className="search-input"
@@ -134,4 +149,4 @@ const Csit = () => {
     );
 };
 
-export default Csit; 
+export default Csit;

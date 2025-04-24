@@ -15,43 +15,43 @@ const Csit = () => {
             title: 'Hello ITians... Welcome to BSc.CSIT',
             courses: [
                 {
-                    id: 'Data Structure and Algorithm',
+                    id: 'Data_Structure_and_Algorithm',
                     title: 'Data Structure and Algorithm ',
                     description: 'Description',
-                    image: 'https://www.svgrepo.com/show/62204/student.svg',
+                    image: 'https://cdn.kobo.com/book-images/40fe7fb1-334b-4467-9a5d-eebe9d52b010/1200/1200/False/data-structures-and-algorithms.jpg',
                     duration: '90 days per semister',
                     level: 'Basic/Startup'
                 },
                 {
-                    id: 'Numerical Method',
+                    id: 'Numerical_Method',
                     title: 'Numerical Method',
                     description: 'Description ',
                     
-                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKfTIIPGMMqmzVSGl0Jthggt5FtELsPaAeAg&s',
+                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcq7PpmfBsIdndXHWE_vCbCsXJ05H8Qx1Ejw&s',
                     duration: '90 days per semister',
                     level: 'Intermediate'
                 },
                 {
-                    id: 'Computer Architecture',
+                    id: 'Computer_Architecture',
                     title: 'Computer Architecture',
                     description: 'Description',
-                    image: 'https://img.freepik.com/free-vector/student-club-abstract-concept-vector-illustration-student-organization-university-interest-club-afterschool-activity-program-college-association-professional-hobby-society-abstract-metaphor_335657-5900.jpg?semt=ais_hybrid&w=740',
+                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0oeh2jS8EiKiBnNEm6CSd_aCV40s3MNQ5iA&s',
                     duration: '90 days per semister',
                     level: 'Intermediate'
                 },
                 {
-                    id: 'Computer Graphics',
-                    title: 'Mathematics I',
+                    id: 'Computer_Graphics',
+                    title: 'Computer Graphics',
                     description: 'Description',
-                    image: 'https://img.freepik.com/free-vector/workplace-culture-abstract-concept-vector-illustration-shared-values-belief-systems-attitude-work-company-team-corporate-culture-high-performance-employee-health-abstract-metaphor_335657-6126.jpg?w=360',
+                    image: 'https://bookstation.in/cdn/shop/files/COMPUTER-GRAPHICS-COMPUTER-ENGINEERING-AI-DS-SEM-3-001.jpg?v=1689147717',
                     duration: '90 days per semister',
                     level: 'Intermediate'
                 },
                 {
-                    id: 'Statistics II',
+                    id: 'Statistics_II',
                     title: 'Statistics II',
                     description: 'Description',
-                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8Ot1zFx25AM8IfPz4J_WjBXs1jylgfCh73Q&s',
+                    image: 'https://heritagebooks.com.np/wp-content/uploads/2022/01/Statistics-II.jpg',
                     duration: '90 days per semister',
                     level: 'Intermediate'
                 },
@@ -116,7 +116,7 @@ const Csit = () => {
                                                     <span className="duration">Duration: {course.duration}</span>
                                                     <span className="level">Level: {course.level}</span>
                                                 </div>
-                                                <Link to={`/csit/${course.id}`} className="view-course-button">
+                                                <Link to={`/BSc.CSIT/${course.id}`} className="view-course-button">
                                                     View Course
                                                 </Link>
                                             </div>

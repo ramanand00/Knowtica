@@ -6,38 +6,61 @@ import PageHeader from '../../components/PageHeader';
 import BackToTop from '../../components/BackToTop';
 import '../../css/courses.css';
 
-const Csit = () => {
+const StatisticsII = () => {
     const [searchQuery, setSearchQuery] = useState('');
 
     const courseCategories = [
         {
-            id: 'frontend',
-            title: 'Hello ITians... Welcome to BSc.CSIT',
+            id: 'statistics-ii',
+            title: 'Statistics II (STA210)',
             courses: [
                 {
-                    id: 'Advanced Database',
-                    title: 'Advanced Database',
-                    description: 'Description',
-                    image: 'https://bookstation.in/cdn/shop/files/ADVANCED-DATABASE-MANAGEMENT-SYSTEM-INFORMATION-TECHNOLOGY-SEM-7-MAHESH-MALI-001.jpg?v=1690535868',
-                    duration: '90 days per semister',
-                    level: 'Basic/Startup'
+                    id: 'Unit1',
+                    title: 'Sampling Distribution and Estimation',
+                    description: 'Sampling distribution of mean and proportion, Central Limit Theorem, Estimation Methods, Sample size determination, and its relationship with desired error levels.',
+                    image: '#',
+                    duration: '6 Hrs.',
+                    level: 'Beginner'
                 },
                 {
-                    id: 'Elective IV',
-                    title: 'Elective IV',
-                    description: 'Description ',
-                    
-                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_Q8SSbatEnYw0cXs0X82jLgWnB3ny18pZbQ&s',
-                    duration: '90 days per semister',
+                    id: 'Unit2',
+                    title: 'Testing of Hypothesis',
+                    description: 'Statistical hypotheses, Power of the test, p-value concept, one sample tests for mean, proportion, paired sample t-test, confidence intervals.',
+                    image: '#',
+                    duration: '8 Hrs.',
                     level: 'Intermediate'
                 },
                 {
-                    id: 'Model',
-                    title: 'Model Question Paper',
-                    description: 'Description',
-                    image: 'https://i.pinimg.com/736x/e9/0e/54/e90e541691d2ec8d98fa68c0f760495b.jpg',
-                    duration: '90 days per semister',
+                    id: 'Unit3',
+                    title: 'Non-Parametric Test',
+                    description: 'Parametric vs non-parametric test, needs, one-sample test (Run test, Binomial test, Kolmogorov–Smirnov test), paired-sample tests, Kruskal Wallis test.',
+                    image: '#',
+                    duration: '8 Hrs.',
                     level: 'Intermediate'
+                },
+                {
+                    id: 'Unit4',
+                    title: 'Multiple Correlation and Regression',
+                    description: 'Multiple and partial correlation, multiple linear regression, hypothesis testing of multiple regression, test of significance of regression coefficients.',
+                    image: '#',
+                    duration: '6 Hrs.',
+                    level: 'Advanced'
+                },
+                {
+                    id: 'Unit5',
+                    title: 'Design of Experiment',
+                    description: 'Experimental design, CRD, RBD, Latin Square Design, ANOVA tables, efficiency, estimation of missing values, and statistical analysis.',
+                    image: '#',
+                    duration: '10 Hrs.',
+                    level: 'Advanced'
+                },
+                {
+                    id: 'Unit6',
+                    title: 'Stochastic Process',
+                    description: 'Markov Process, Poisson process, Simulation of stochastic processes, Queuing systems (Little’s law, M/M/1 system), performance evaluation.',
+                    image: '#',
+                    duration: '7 Hrs.',
+                    level: 'Advanced'
                 }
             ]
         }
@@ -58,11 +81,11 @@ const Csit = () => {
     return (
         <>
             <Navbar />
-            <PageHeader title="BSc.CSIT Last/Eighth Semister" path="/BSc.CSIT" name="BSc.CSIT" />
+            <PageHeader title="Statistics II (STA210)" path="/BSc.CSIT/Csit3" name="BSc.CSIT" />
             <div className="courses-page">
                 <div className="container">
                     <div className="search-container">
-                        <h1>Our courses</h1>
+                        <h1>Statistics II (STA210)</h1>
                         <input
                             type="text"
                             className="search-input"
@@ -92,7 +115,7 @@ const Csit = () => {
                                                     <span className="duration">Duration: {course.duration}</span>
                                                     <span className="level">Level: {course.level}</span>
                                                 </div>
-                                                <Link to={`/csit/${course.id}`} className="view-course-button">
+                                                <Link to={`/BSc.CSIT/${course.id}`} className="view-course-button">
                                                     View Course
                                                 </Link>
                                             </div>
@@ -110,4 +133,4 @@ const Csit = () => {
     );
 };
 
-export default Csit; 
+export default StatisticsII;

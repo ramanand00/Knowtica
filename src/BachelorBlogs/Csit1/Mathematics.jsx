@@ -15,19 +15,82 @@ const Csit = () => {
             title: 'Hello ITians... Welcome to BSc.CSIT',
             courses: [
                 {
-                    id: 'Advanced Database',
-                    title: 'Advanced Database',
+                    id: 'Chapter1',
+                    title: 'Function of One Variable',
                     description: 'Description',
-                    image: 'https://bookstation.in/cdn/shop/files/ADVANCED-DATABASE-MANAGEMENT-SYSTEM-INFORMATION-TECHNOLOGY-SEM-7-MAHESH-MALI-001.jpg?v=1690535868',
+                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEoRc1boLsnZDG-nhY8SLBMuiEBrTrIvARyg&s',
                     duration: '90 days per semister',
                     level: 'Basic/Startup'
                 },
                 {
-                    id: 'Elective IV',
-                    title: 'Elective IV',
+                    id: 'Chapter2',
+                    title: 'Limits and Continuity',
                     description: 'Description ',
-                    
-                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_Q8SSbatEnYw0cXs0X82jLgWnB3ny18pZbQ&s',
+                    image: 'https://m.media-amazon.com/images/I/61oVftUAhcL._AC_UF1000,1000_QL80_.jpg',
+                    duration: '90 days per semister',
+                    level: 'Intermediate'
+                },
+                {
+                    id: 'Chapter3',
+                    title: 'Derivatives',
+                    description: 'Description',
+                    image: 'https://heritagebooks.com.np/wp-content/uploads/2022/11/viber_image_2022-11-10_13-01-42-468.jpg',
+                    duration: '90 days per semister',
+                    level: 'Intermediate'
+                },
+                {
+                    id: 'Chapter4',
+                    title: 'Applications of Derivatives',
+                    description: 'Description',
+                    image: 'https://img.drz.lazcdn.com/static/np/p/7cc88ca8a4d0259c2af90e2326903843.jpg_720x720q80.jpg',
+                    duration: '90 days per semister',
+                    level: 'Intermediate'
+                },
+                {
+                    id: 'Chapter5',
+                    title: 'Antiderivatives',
+                    description: 'Description',
+                    image: 'https://heritagebooks.com.np/wp-content/uploads/2019/06/1532767658dhanpat_rai0011.jpg',
+                    duration: '90 days per semister',
+                    level: 'Intermediate'
+                },
+                {
+                    id: 'Chapter6',
+                    title: 'Applications of Antiderivatives',
+                    description: 'Description',
+                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEoRc1boLsnZDG-nhY8SLBMuiEBrTrIvARyg&s',
+                    duration: '90 days per semister',
+                    level: 'Intermediate'
+                },
+                {
+                    id: 'Chapter7',
+                    title: 'Ordinary Differential Equations',
+                    description: 'Description',
+                    image: 'https://m.media-amazon.com/images/I/61oVftUAhcL._AC_UF1000,1000_QL80_.jpg',
+                    duration: '90 days per semister',
+                    level: 'Intermediate'
+                },
+                {
+                    id: 'Chapter8',
+                    title: 'Infinite sequence and series',
+                    description: 'Description',
+                    image: 'https://heritagebooks.com.np/wp-content/uploads/2022/11/viber_image_2022-11-10_13-01-42-468.jpg',
+                    duration: '90 days per semister',
+                    level: 'Intermediate'
+                },
+                {
+                    id: 'Chapter9',
+                    title: 'Plane and Space vectors',
+                    description: 'Description',
+                    image: 'https://img.drz.lazcdn.com/static/np/p/7cc88ca8a4d0259c2af90e2326903843.jpg_720x720q80.jpg',
+                    duration: '90 days per semister',
+                    level: 'Intermediate'
+                },
+                {
+                    id: 'Chapter10',
+                    title: 'Partial Derivatives and Multiple Integrals',
+                    description: 'Description',
+                    image: 'https://heritagebooks.com.np/wp-content/uploads/2019/06/1532767658dhanpat_rai0011.jpg',
                     duration: '90 days per semister',
                     level: 'Intermediate'
                 },
@@ -58,7 +121,7 @@ const Csit = () => {
     return (
         <>
             <Navbar />
-            <PageHeader title="BSc.CSIT Last/Eighth Semister" path="/BSc.CSIT" name="BSc.CSIT" />
+            <PageHeader title="BSc.CSIT First Semister" path="/BSc.CSIT/Csit1" name="BSc.CSIT" />
             <div className="courses-page">
                 <div className="container">
                     <div className="search-container">
@@ -92,7 +155,7 @@ const Csit = () => {
                                                     <span className="duration">Duration: {course.duration}</span>
                                                     <span className="level">Level: {course.level}</span>
                                                 </div>
-                                                <Link to={`/csit/${course.id}`} className="view-course-button">
+                                                <Link to={`/BSc.CSIT/${course.id}`} className="view-course-button">
                                                     View Course
                                                 </Link>
                                             </div>

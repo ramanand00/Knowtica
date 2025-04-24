@@ -6,92 +6,84 @@ import PageHeader from '../../components/PageHeader';
 import BackToTop from '../../components/BackToTop';
 import '../../css/courses.css';
 
-const DatabaseManagementSystem = () => {
+const ComputerArchitecture = () => {
     const [searchQuery, setSearchQuery] = useState('');
 
     const courseCategories = [
         {
-            id: 'database-management-system',
-            title: 'Database Management System (CSC260)',
+            id: 'frontend',
+            title: 'Computer Architecture (CSC208)',
             courses: [
                 {
                     id: 'Unit1',
-                    title: 'Database and Database Users',
-                    description: 'Introduction to database concepts, characteristics of the database approach, and actors behind the scenes.',
+                    title: 'Data Representation',
+                    description: 'Binary Representation, BCD, Alphanumeric Representation, Complements, Fixed Point representation, Representing Negative Numbers, Floating Point Representation, Arithmetic with Complements, Overflow, Detecting Overflow; Other Binary Codes: Gray Code, self Complementing Code, Weighted Code, Excess-3 Code, EBCDIC; Error Detection Codes: Parity Bit, Odd Parity, Even parity, Parity Generator & Checker.',
                     image: '#',
-                    duration: '2 Hrs.',
+                    duration: '4 Hrs.',
                     level: 'Beginner'
                 },
                 {
                     id: 'Unit2',
-                    title: 'Database System – Concepts and Architecture',
-                    description: 'Overview of data models, schemas, data independence, and architecture for DBMSs.',
+                    title: 'Register Transfer and Microoperations',
+                    description: 'Microoperation, Register Transfer Language, Register Transfer, Control Function; Arithmetic Microoperations: Binary Adder, Binary Adder-subtractor, Binary Incrementer, Arithmetic Circuit; Logic Microoperations, Hardware Implementation, Applications of Logic Microoperations; Shift Microoperations: Logical Shift, Circular shift, Arithmetic Shift, Hardware Implementation of Shifter.',
                     image: '#',
-                    duration: '3 Hrs.',
+                    duration: '5 Hrs.',
                     level: 'Intermediate'
                 },
                 {
                     id: 'Unit3',
-                    title: 'Data Modeling Using the Entity-Relational Model',
-                    description: 'Introduction to entity types, relationships, weak entity types, and ER diagrams.',
+                    title: 'Basic Computer Organization and Design',
+                    description: 'Instruction Code, Operation Code, Stored Program Concept; Registers and memory of Basic Computer, Common Bus System for Basic Computer; Instruction Format, Instruction Set Completeness, Control Unit of Basic Computer, Control Timing Signals; Instruction Cycle of Basic computer, Determining Type of Instruction, Memory Reference Instructions, Input-Output Instructions, Program Interrupt & Interrupt Cycle; Description and Flowchart of Basic Computer.',
                     image: '#',
-                    duration: '6 Hrs.',
+                    duration: '8 Hrs.',
                     level: 'Intermediate'
                 },
                 {
                     id: 'Unit4',
-                    title: 'The Relational Data Model and Relational Database Constraints',
-                    description: 'Relational model concepts, constraints, and dealing with update operations and transactions.',
+                    title: 'Microprogrammed Control',
+                    description: 'Control Word, Microprogram, Control Memory, Control Address Register, Sequencer; Address Sequencing, Conditional Branch, Mapping of Instructions, Subroutines, Microinstruction Format, Symbolic Microinstructions; Design of Control Unit.',
                     image: '#',
-                    duration: '3 Hrs.',
-                    level: 'Intermediate'
+                    duration: '4 Hrs.',
+                    level: 'Advanced'
                 },
                 {
                     id: 'Unit5',
-                    title: 'The Relational Algebra and Relational Calculus',
-                    description: 'Learn relational operations including SELECT, PROJECT, JOIN, DIVISION, and more.',
+                    title: 'Central Processing Unit',
+                    description: 'Major Components of CPU, CPU Organization; Instruction Formats, Addressing Modes, Data Transfer and manipulation, Program Control, Subroutine Call and Return, Types of Interrupt; RISC vs CISC, Pros and Cons of RISC and CISC, Overlapped Register Windows.',
                     image: '#',
-                    duration: '5 Hrs.',
+                    duration: '4 Hrs.',
                     level: 'Advanced'
                 },
                 {
                     id: 'Unit6',
-                    title: 'SQL',
-                    description: 'Data definition, complex retrieval queries, and DML commands including INSERT, DELETE, UPDATE.',
+                    title: 'Pipelining',
+                    description: 'Parallel Processing, Multiple Functional Units, Flynn’s Classification; Pipelining: Concept and Demonstration with Example, Speedup Equation, Floating Point addition and Subtraction with Pipelining; Instruction Level Pipelining: Instruction Cycle, Three & Four-Segment Instruction Pipeline, Pipeline Conflicts and Solutions; Vector Processing, Applications, Vector Operations, Matrix Multiplication.',
                     image: '#',
-                    duration: '8 Hrs.',
+                    duration: '6 Hrs.',
                     level: 'Advanced'
                 },
                 {
                     id: 'Unit7',
-                    title: 'Relational Database Design',
-                    description: 'Designing relational databases using ER-to-Relational mapping, normalization, and understanding normal forms.',
+                    title: 'Computer Arithmetic',
+                    description: 'Addition and Subtraction with Signed Magnitude Data, Addition and Subtraction with Signed 2’s Complement Data; Multiplication of Signed Magnitude Data, Booth Multiplication, Division of Signed magnitude Data, Divide Overflow.',
                     image: '#',
-                    duration: '7 Hrs.',
+                    duration: '6 Hrs.',
                     level: 'Advanced'
                 },
                 {
                     id: 'Unit8',
-                    title: 'Introduction to Transaction Processing Concepts and Theory',
-                    description: 'Understanding transaction processing, properties of transactions, and schedules based on recoverability and serializability.',
+                    title: 'Input Output Organization',
+                    description: 'Input-Output Interface: I/O Bus and Interface Modules, I/O vs. Memory Bus, Isolated vs. Memory-Mapped I/O; Asynchronous Data Transfer: Strobe, Handshaking; Modes of Transfer: Programmed I/O, Interrupt-Initiated I/O, Direct memory Access; Priority Interrupt: Polling, Daisy-Chaining, Parallel Priority Interrupt; Direct Memory Access, Input-Output Processor, DMA vs. IOP.',
                     image: '#',
                     duration: '4 Hrs.',
                     level: 'Advanced'
                 },
                 {
                     id: 'Unit9',
-                    title: 'Concurrency Control Techniques',
-                    description: 'Learn techniques like Two-Phase Locking, Timestamp Ordering, and Multiversion Concurrency Control.',
+                    title: 'Memory Organization',
+                    description: 'Memory Hierarchy, Main Memory, RAM and ROM Chips, Memory address Map, Memory Connection to CPU, Auxiliary Memory (magnetic Disk, Magnetic Tape); Associative Memory: Hardware Organization, Match Logic, Read Operation, Write Operation; Cache Memory: Locality of Reference, Hit & Miss Ratio, Mapping, Write Policies.',
                     image: '#',
                     duration: '4 Hrs.',
-                    level: 'Advanced'
-                },
-                {
-                    id: 'Unit10',
-                    title: 'Database Recovery Techniques',
-                    description: 'Overview of recovery concepts, NO-UNDO/REDO recovery, shadow paging, and database backup techniques.',
-                    image: '#',
-                    duration: '3 Hrs.',
                     level: 'Advanced'
                 }
             ]
@@ -113,11 +105,11 @@ const DatabaseManagementSystem = () => {
     return (
         <>
             <Navbar />
-            <PageHeader title="Database Management System (CSC260)" path="/BSc.CSIT/Csit4" name="BSc.CSIT" />
+            <PageHeader title="Computer Architecture (CSC208)" path="/BSc.CSIT/Csit3" name="BSc.CSIT" />
             <div className="courses-page">
                 <div className="container">
                     <div className="search-container">
-                        <h1>Database Management System (CSC260)</h1>
+                        <h1>Computer Architecture (CSC208)</h1>
                         <input
                             type="text"
                             className="search-input"
@@ -165,4 +157,4 @@ const DatabaseManagementSystem = () => {
     );
 };
 
-export default DatabaseManagementSystem;
+export default ComputerArchitecture;

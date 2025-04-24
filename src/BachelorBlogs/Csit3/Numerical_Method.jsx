@@ -6,110 +6,61 @@ import PageHeader from '../../components/PageHeader';
 import BackToTop from '../../components/BackToTop';
 import '../../css/courses.css';
 
-const Csit = () => {
+const NumericalMethod = () => {
     const [searchQuery, setSearchQuery] = useState('');
 
     const courseCategories = [
         {
             id: 'frontend',
-            title: 'Hello ITians... Welcome to BSc.CSIT',
+            title: 'Numerical Method (CSC207)',
             courses: [
                 {
-                    id: 'Chapter1',
-                    title: 'Introduction to Computer',
-                    description: 'Description',
+                    id: 'Unit1',
+                    title: 'Solution of Nonlinear Equations',
+                    description: 'Errors in Numerical Calculations, Sources of Errors, Propagation of Errors, Review of Taylor\'s Theorem; Solving Non-linear Equations by Trial and Error method, Half-Interval method and Convergence, Newton\'s method and Convergence, Secant method and Convergence, Fixed point iteration and its convergence, Newton\'s method for calculating multiple roots, Horner\'s method.',
                     image: '#',
-                    duration: '90 days per semister',
-                    level: 'Basic/Startup'
+                    duration: '8 Hrs.',
+                    level: 'Beginner'
                 },
                 {
-                    id: 'Chapter2',
-                    title: 'The Computer System Hardware',
-                    description: 'Description ',
+                    id: 'Unit2',
+                    title: 'Interpolation and Regression',
+                    description: 'Interpolation vs Extrapolation, Lagrange\'s Interpolation, Newton\'s Interpolation using divided differences, forward differences and backward differences, Cubic spline interpolation; Regression vs Interpolation, Least squares method, Linear Regression, Non-linear Regression by fitting Exponential and Polynomial.',
                     image: '#',
-                    duration: '90 days per semister',
+                    duration: '8 Hrs.',
                     level: 'Intermediate'
                 },
                 {
-                    id: 'Chapter3',
-                    title: 'Computer Memory',
-                    description: 'Description',
+                    id: 'Unit3',
+                    title: 'Numerical Differentiation and Integration',
+                    description: 'Differentiating Continuous Functions (Two-Point and Three-Point Formula), Differentiating Tabulated Functions by using Newton’s Differences, Maxima and minima of Tabulated Functions; Newton-Cote\'s Quadrature Formulas, Trapezoidal rule, Multi-Segment Trapezoidal rule, Simpson\'s 1/3 rule, Multi-Segment Simpson\'s 1/3 rule, Simpson\'s 3/8 rule, Multi-Segment Simpson\'s 3/8 rule, Gaussian integration algorithm, Romberg integration.',
                     image: '#',
-                    duration: '90 days per semister',
+                    duration: '8 Hrs.',
                     level: 'Intermediate'
                 },
                 {
-                    id: 'Chapter4',
-                    title: 'Input and Output Devices',
-                    description: 'Description',
+                    id: 'Unit4',
+                    title: 'Solving System of Linear Equations',
+                    description: 'Review of the existence of solutions and properties of matrices, Gaussian elimination method, pivoting, Gauss-Jordan method, Inverse of matrix using Gauss-Jordan method; Matrix factorization and Solving System of Linear Equations by using Dolittle and Cholesky\'s algorithm; Iterative Solutions of System of Linear Equations, Jacobi Iteration Method, Gauss-Seidal Method; Eigen values and eigen vectors problems, Solving eigen value problems using power method.',
                     image: '#',
-                    duration: '90 days per semister',
-                    level: 'Intermediate'
+                    duration: '8 Hrs.',
+                    level: 'Advanced'
                 },
                 {
-                    id: 'Chapter5',
-                    title: 'Data Representation',
-                    description: 'Description',
+                    id: 'Unit5',
+                    title: 'Solution of Ordinary Differential Equations',
+                    description: 'Review of differential equations, Initial value problem, Taylor series method, Picard\'s method, Euler\'s method and its accuracy, Heun\'s method, Runge-Kutta methods; Solving System of ordinary differential equations, Solution of the higher order equations, Boundary value problems, Shooting method and its algorithm.',
                     image: '#',
-                    duration: '90 days per semister',
-                    level: 'Intermediate'
+                    duration: '8 Hrs.',
+                    level: 'Advanced'
                 },
-                  {
-                     id: 'Chapter6',
-                     title: 'Computer Software',
-                     description: 'Description',
-                     image: '#',
-                     duration: '90 days per semister',
-                     level: 'Intermediate'
-                  },
-                  {
-                     id: 'Chapter7',
-                     title: 'Ddata Communication and Computer Network',
-                     description: 'Description',
-                     image: '#',
-                     duration: '90 days per semister',
-                     level: 'Intermediate'
-                  },
-                     
-                     {
-                        id: 'Chapter8',
-                        title: 'The Internet and Internet Services',
-                        description: 'Description',
-                        image: '#',
-                        duration: '90 days per semister',
-                        level: 'Intermediate'
-                     },
-                     {
-                        id: 'Chapter9',
-                        title: 'Fundamentals of Database',
-                        description: 'Description',
-                        image: '#',
-                        duration: '90 days per semister',
-                        level: 'Intermediate'
-                     },
-                     {
-                        id: 'Chapter10',
-                        title: 'Multimedia',
-                        description: 'Description',
-                        image: '#',
-                        duration: '90 days per semister',
-                        level: 'Intermediate'
-                     },
-                     {
-                        id: 'Chapter11',
-                        title: 'Computer Security',
-                        description: 'Description',
-                        image: '#',
-                        duration: '90 days per semister',
-                        level: 'Intermediate'
-                     },
                 {
-                    id: 'Model',
-                    title: 'Model Question Paper',
-                    description: 'Description',
+                    id: 'Unit6',
+                    title: 'Solution of Partial Differential Equations',
+                    description: 'Review of partial differential equations, Classification of partial differential equation, Deriving difference equations, Laplacian equation and Poisson\'s equation, engineering examples.',
                     image: '#',
-                    duration: '90 days per semister',
-                    level: 'Intermediate'
+                    duration: '5 Hrs.',
+                    level: 'Advanced'
                 }
             ]
         }
@@ -130,11 +81,11 @@ const Csit = () => {
     return (
         <>
             <Navbar />
-            <PageHeader title="BSc.CSIT First Semister" path="/BSc.CSIT/Csit1" name="BSc.CSIT" />
+            <PageHeader title="Numerical Method (CSC207)" path="/BSc.CSIT/Csit3" name="BSc.CSIT" />
             <div className="courses-page">
                 <div className="container">
                     <div className="search-container">
-                        <h1>Our courses</h1>
+                        <h1>Numerical Method (CSC207)</h1>
                         <input
                             type="text"
                             className="search-input"
@@ -182,4 +133,4 @@ const Csit = () => {
     );
 };
 
-export default Csit; 
+export default NumericalMethod;
