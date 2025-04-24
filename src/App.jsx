@@ -31,7 +31,7 @@ import Cprogramming from "./BachelorBlogs/Csit1/Cprogramming"; // C Programming
 import IIT from "./BachelorBlogs/Csit1/IIT"; // Introduction to Information Technology
 import DigitalLogic from "./BachelorBlogs/Csit1/DigitalLogic"; // Digital Logic
 import Mathematics from "./BachelorBlogs/Csit1/Mathematics"; // Mathematics I
-import Physics from "./BachelorBlogs/Csit1/Physics"; // Physics
+// import Physics from "./BachelorBlogs/Csit1/Physics"; // Physics
 
 // BSc.csit Second Semister Courses
 import Discrete_Structure from "./BachelorBlogs/Csit2/Discrete_Structure"; // Data Structure and Algorithm
@@ -108,7 +108,7 @@ export default function App() {
         <Route exact path="/BSc.CSIT/Cprogramming" element={<Cprogramming />} />
         <Route exact path="/BSc.CSIT/DigitalLogic" element={<DigitalLogic />} />
         <Route exact path="/BSc.CSIT/Mathematics" element={<Mathematics />} />
-        <Route exact path="/BSc.CSIT/Physics" element={<Physics />} />
+        {/* <Route exact path="/BSc.CSIT/Physics" element={<Physics />} /> */}
 
         {/* BSc.csit Second Semister Courses */}
         <Route exact path="/BSc.CSIT/Discrete_Structure" element={<Discrete_Structure />} />
