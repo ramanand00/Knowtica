@@ -5,6 +5,7 @@ import Footer from '../../components/Footer';
 import PageHeader from '../../components/PageHeader';
 import BackToTop from '../../components/BackToTop';
 import '../../css/courses.css';
+
 const Csit = () => {
     const [searchQuery, setSearchQuery] = useState('');
 
@@ -14,68 +15,101 @@ const Csit = () => {
             title: 'Hello ITians... Welcome to BSc.CSIT',
             courses: [
                 {
-                    id: 'Unit1',
-                    title: 'Unit 1: Rotational Dynamics and Oscillatory Motion',
-                    description: 'Covers torque, angular momentum, SHM, damped and forced oscillations.',
+                    id: 'Chapter1',
+                    title: 'Introduction to Computer',
+                    description: 'Description',
                     image: '#',
-                    duration: '3 hrs/week',
+                    duration: '90 days per semister',
+                    level: 'Basic/Startup'
+                },
+                {
+                    id: 'Chapter2',
+                    title: 'The Computer System Hardware',
+                    description: 'Description ',
+                    image: '#',
+                    duration: '90 days per semister',
                     level: 'Intermediate'
                 },
                 {
-                    id: 'Unit2',
-                    title: 'Unit 2: Electric and Magnetic Field',
-                    description: 'Electric fields, Gauss’s law, magnetic forces, Ampere’s law and applications.',
+                    id: 'Chapter3',
+                    title: 'Computer Memory',
+                    description: 'Description',
                     image: '#',
-                    duration: '3 hrs/week',
+                    duration: '90 days per semister',
                     level: 'Intermediate'
                 },
                 {
-                    id: 'Unit3',
-                    title: 'Unit 3: Fundamentals of Atomic Theory',
-                    description: 'Bohr’s model, atomic spectra, de Broglie hypothesis and Heisenberg’s principle.',
+                    id: 'Chapter4',
+                    title: 'Input and Output Devices',
+                    description: 'Description',
                     image: '#',
-                    duration: '2 hrs/week',
-                    level: 'Advanced'
-                },
-                {
-                    id: 'Unit4',
-                    title: 'Unit 4: Methods of Quantum Mechanics',
-                    description: 'Wave functions, Schrödinger equation and particle in a box.',
-                    image: '#',
-                    duration: '2 hrs/week',
-                    level: 'Advanced'
-                },
-                {
-                    id: 'Unit5',
-                    title: 'Unit 5: Fundamentals of Solid State Physics',
-                    description: 'Crystal structures, energy bands, conductors, semiconductors, insulators.',
-                    image: '#',
-                    duration: '2 hrs/week',
+                    duration: '90 days per semister',
                     level: 'Intermediate'
                 },
                 {
-                    id: 'Unit6',
-                    title: 'Unit 6: Semiconductor and Semiconductor Devices',
-                    description: 'PN junction, diodes, transistors, logic gates and applications.',
+                    id: 'Chapter5',
+                    title: 'Data Representation',
+                    description: 'Description',
                     image: '#',
-                    duration: '3 hrs/week',
+                    duration: '90 days per semister',
                     level: 'Intermediate'
                 },
+                  {
+                     id: 'Chapter6',
+                     title: 'Computer Software',
+                     description: 'Description',
+                     image: '#',
+                     duration: '90 days per semister',
+                     level: 'Intermediate'
+                  },
+                  {
+                     id: 'Chapter7',
+                     title: 'Ddata Communication and Computer Network',
+                     description: 'Description',
+                     image: '#',
+                     duration: '90 days per semister',
+                     level: 'Intermediate'
+                  },
+                     
+                     {
+                        id: 'Chapter8',
+                        title: 'The Internet and Internet Services',
+                        description: 'Description',
+                        image: '#',
+                        duration: '90 days per semister',
+                        level: 'Intermediate'
+                     },
+                     {
+                        id: 'Chapter9',
+                        title: 'Fundamentals of Database',
+                        description: 'Description',
+                        image: '#',
+                        duration: '90 days per semister',
+                        level: 'Intermediate'
+                     },
+                     {
+                        id: 'Chapter10',
+                        title: 'Multimedia',
+                        description: 'Description',
+                        image: '#',
+                        duration: '90 days per semister',
+                        level: 'Intermediate'
+                     },
+                     {
+                        id: 'Chapter11',
+                        title: 'Computer Security',
+                        description: 'Description',
+                        image: '#',
+                        duration: '90 days per semister',
+                        level: 'Intermediate'
+                     },
                 {
-                    id: 'Unit7',
-                    title: 'Unit 7: Universal Gates and Physics of Integrated Circuits',
-                    description: 'Basic and universal gates, IC technology, and logic families.',
-                    image: '#',
-                    duration: '1.5 hrs/week',
-                    level: 'Beginner'
-                },
-                {
-                    id: 'model',
+                    id: 'Model',
                     title: 'Model Question Paper',
-                    description: 'Includes sample questions and marking scheme.',
+                    description: 'Description',
                     image: '#',
-                    duration: 'N/A',
-                    level: 'All Levels'
+                    duration: '90 days per semister',
+                    level: 'Intermediate'
                 }
             ]
         }
