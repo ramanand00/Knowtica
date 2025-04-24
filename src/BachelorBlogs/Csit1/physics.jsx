@@ -96,24 +96,24 @@ const Csit = () => {
     return (
         <>
             <Navbar />
-            <PageHeader title="BSc.CSIT First Semester - Physics" path="/BSc.CSIT/Csit1" name="BSc.CSIT" />
+            <PageHeader title="BSc.CSIT First Semister" path="/BSc.CSIT/Csit1" name="BSc.CSIT" />
             <div className="courses-page">
                 <div className="container">
                     <div className="search-container">
-                        <h1>Physics Units</h1>
+                        <h1>Our courses</h1>
                         <input
                             type="text"
                             className="search-input"
-                            placeholder="Search units..."
+                            placeholder="Search courses..."
                             value={searchQuery}
                             onChange={handleSearch}
                         />
                     </div>
-
+                    
                     {courseCategories.map((category) => {
                         const filteredCourses = filterCourses(category.courses);
                         if (filteredCourses.length === 0) return null;
-
+                        
                         return (
                             <div key={category.id} className="category-section">
                                 <h2 className="category-title">{category.title}</h2>
@@ -127,11 +127,11 @@ const Csit = () => {
                                                 <h3>{course.title}</h3>
                                                 <p>{course.description}</p>
                                                 <div className="course-meta">
-                                                    <span className="duration">Credit Hour: {course.duration}</span>
+                                                    <span className="duration">Duration: {course.duration}</span>
                                                     <span className="level">Level: {course.level}</span>
                                                 </div>
                                                 <Link to={`/BSc.CSIT/${course.id}`} className="view-course-button">
-                                                    View Unit
+                                                    View Course
                                                 </Link>
                                             </div>
                                         </div>
@@ -148,4 +148,4 @@ const Csit = () => {
     );
 };
 
-export default Csit;
+export default Csit; 
