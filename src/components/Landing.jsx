@@ -13,14 +13,15 @@ export default function Landing() {
                     </div>
                     <div className="titles">
                         <div className="caption2">
-                            <p>At <span>Knowtica,</span> we work towards the betterment of our <span>world</span> </p>
+                            <p>🎓 Welcome to <span>Knowtica </span> Your Partner in <span>Academic</span>  Excellence.</p>
                         </div>
                         <div className="caption3">
-                            <p>Bring out the change in society by spreading hands to help the unprivileged children and other backward communities.</p>
+                            <p>Knowtica is a modern e-learning platform designed for students pursuing BSc.CSIT, BCA, BIT, and related courses.
+                            We provide well-organized notes, interactive videos, and smart study resources to make learning easier, faster, and more effective.</p>
                         </div>
                         <div className="btns">
                             <button onClick={() => window.open("#", "_blank", "noopener noreferrer")} type="button" className="btn btn-outline-info">Know More</button>
-                            <button type="button" className="btn btn-success" onClick={()=>navigate("/#")}>DONATE</button>
+                            {/* <button type="button" className="btn btn-success" onClick={()=>navigate("/#")}>DONATE</button> */}
                         </div>
                     </div>
 
