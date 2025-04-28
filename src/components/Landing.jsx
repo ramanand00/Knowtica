@@ -9,7 +9,7 @@ export default function Landing() {
                 <span className="left">
                     <div className="caption1">
                         <hr />
-                        <h4>WE ARE Knowtica</h4>
+                        <h4>Knowtica</h4>
                     </div>
                     <div className="titles">
                         <div className="caption2">
