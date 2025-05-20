@@ -1,6 +1,6 @@
 import React from "react";
 import planetImage from "../assets/planet-bg.jpg"; // Half-circle glowing green image
-import logo from "../assets/logo.webp";
+// import logo from "../assets/logo.webp";
 import { FaGoogle, FaChrome, FaSafari, FaGooglePlay, FaWhatsapp } from "react-icons/fa";
 
 const platforms = [
