@@ -2,7 +2,8 @@ import React, { useEffect, useRef } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import DocsSidebar from "../components/DocsSidebar";
-import gsap from "gsap";
+import { gsap } from 'gsap';
+
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);

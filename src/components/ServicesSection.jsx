@@ -1,6 +1,7 @@
 import React from "react";
 import { FaPhoneAlt, FaServer, FaTools, FaLifeRing, FaMicrochip, FaCloud, FaCode, FaHeadset } from "react-icons/fa";
 
+
 const services = [
   { icon: <FaPhoneAlt />, title: "(VoIP)", description: "Lorem dolor sed viverra ipsum. Felis imperdiet proin fermentum leo vel. Aliquam purus sit." },
   { icon: <FaServer />, title: "Backup & Recovery", description: "Fringilla urna porttitor rhoncus dolor purus non enim. Quam viverra orci sagittis eu." },
