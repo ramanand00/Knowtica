@@ -26,7 +26,7 @@ const TechProjectSection = () => {
   {/* Logo */}
   <div className="relative z-10 flex justify-center -mt-10">
     <div className="w-20 h-20 bg-black rounded-full border-4 border-green-400 flex items-center justify-center shadow-lg">
-      <img src={logo} alt="Logo" className="w-12 h-12" />
+      {/* <img src={logo} alt="Logo" className="w-12 h-12" /> */}
     </div>
   </div>
 
